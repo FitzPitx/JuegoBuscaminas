@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Buscaminas</title>
+</head>
+<body oncontextmenu="return false">
+    <br><br>
+    <span id="juego-nuevo" onclick="nuevoJuego()">
+        Juego Nuevo
+    </span>
+
+    <span id="minas">
+        000
+    </span>
+
+    <span id="ajustes" onclick="ajustes()">
+        <i class="fa-solid fa-gear"></i>
+    </span>
+
+    <table cellspacing = 0 cellpadding=0 id="tablero">
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/f761e30d9f.js" crossorigin="anonymous"></script>
+</body>
+</html>
